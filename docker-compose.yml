@@ -1,0 +1,6 @@
+services:
+  smartcraft.api:
+    image: ${DOCKER_REGISTRY-}smartcraftapi
+    build:
+      context: .
+      dockerfile: SmartCraft.Api/Dockerfile
